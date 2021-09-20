@@ -37,17 +37,17 @@ public class LoginUser extends HttpServlet {
 			flag = 1;
 		}
 
-		if (flag == 1 && flag2 == 1) {
-			System.out.println("valid username");
+//		if (flag == 1 && flag2 == 1) {
+//			System.out.println("valid username");
 			if (name.equalsIgnoreCase("Pratik")) {
 				printWriter.println("<font color=green><h1>login succesful</h1></font>");
 
 			} else {
 				printWriter.println("<font color=red><h1>login failed</h1></font>");
 			}
-		} else {
-			System.out.println("invalid details");
-		}
+//		} else {
+//			System.out.println("invalid details");
+//		}
 
 	}
 }
